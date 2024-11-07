@@ -102,20 +102,20 @@ describe('Box', () => {
 
     it('should render and accept attributes when the as prop is `a`', () => {
       // @ts-expect-error – href is not a valid attribute for a div, this error asserts it's not allowed
-      const { container, rerender } = render(<Box href="https://strapi.io" />);
+      const { container, rerender } = render(<Box href="https://findest.eu" />);
 
-      rerender(<Box tag="a" href="https://strapi.io" />);
-      expect(container.firstChild).toHaveAttribute('href', 'https://strapi.io');
+      rerender(<Box tag="a" href="https://findest.eu" />);
+      expect(container.firstChild).toHaveAttribute('href', 'https://findest.eu');
     });
 
     it('should render and accept props from the component when passed as the `as` prop', () => {
       const MyLink = ({ to, ...props }: { to: string; children?: React.ReactNode }) => <a href={to} {...props} />;
 
       // @ts-expect-error – to is not a valid attribute for a div, this error asserts it's not allowed
-      const { container, rerender } = render(<Box to="https://strapi.io" />);
+      const { container, rerender } = render(<Box to="https://findest.eu" />);
 
-      rerender(<Box tag={MyLink} to="https://strapi.io" />);
-      expect(container.firstChild).toHaveAttribute('href', 'https://strapi.io');
+      rerender(<Box tag={MyLink} to="https://findest.eu" />);
+      expect(container.firstChild).toHaveAttribute('href', 'https://findest.eu');
     });
 
     it('should allow me to pass different refs', () => {
@@ -123,7 +123,7 @@ describe('Box', () => {
         const linkRef = React.useRef<HTMLAnchorElement>(null);
 
         return (
-          <Box tag="a" href="https://strapi.io" ref={linkRef}>
+          <Box tag="a" href="https://findest.eu" ref={linkRef}>
             click me!
           </Box>
         );

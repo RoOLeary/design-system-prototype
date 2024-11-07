@@ -12,9 +12,10 @@ import { MARKDOWN_OVERRIDES } from '../components/Markdown';
 const createCustomTheme = (theme: DefaultTheme, base: 'light' | 'dark' = 'light') => {
   return {
     base,
-    brandTitle: 'Strapi Design System',
-    brandUrl: 'https://strapi.io/',
-    brandImage: base === 'light' ? '/site/logo.svg' : '/site/logo_dark.svg',
+    brandTitle: 'Findest Design System',
+    brandUrl: 'https://findest.eu/',
+    brandImage: 'https://cdn.prod.website-files.com/627b403b47e89c626257d7e4/627b406996ec80036f9a8624_findest-logo-black%201.png',
+    brandTarget: '_self',
 
     //
     colorPrimary: theme.colors.primary600,

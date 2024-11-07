@@ -1,10 +1,10 @@
 <p align="center">
-  <a href="https://strapi.io">
+  <a href="https://findest.eu">
     <img src="./assets/logo.svg" width="318px" alt="Strapi logo" />
   </a>
 </p>
 <p align="center">
-<a href="https://design-system.strapi.io/">Documentation</a>
+<a href="https://design-system.Findest.eu/">Documentation</a>
 <br />
 
 [![Version](https://img.shields.io/npm/v/@strapi/design-system?style=flat&colorA=4945ff&colorB=4945ff)](https://www.npmjs.com/package/@strapi/design-system)
@@ -54,7 +54,7 @@ Please follow our [CONTRIBUTING](https://github.com/strapi/design-system/blob/ma
 
 ## License
 
-Licensed under the MIT License, Copyright © 2015-present [Strapi Solutions SAS](https://strapi.io).
+Licensed under the MIT License, Copyright © 2015-present [Strapi Solutions SAS](https://findest.eu).
 
 See [LICENSE](https://github.com/strapi/design-system/blob/main/LICENSE) for more information.
 

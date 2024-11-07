@@ -1,5 +1,3 @@
-# @strapi/ui-primitives
-
 ## 2.0.0-rc.12
 
 ## 2.0.0-rc.11

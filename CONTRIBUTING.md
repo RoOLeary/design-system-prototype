@@ -1,6 +1,6 @@
-# Contribute to Strapi Design System
+# Findest Design System v0.0.1
 
-The Strapi Design System is an open-source project administered by [the Strapi team](https://strapi.io/company).
+The Findest Design System is an experimental project by [the Findest Dev team](https://findest.eu).
 We appreciate your interest and efforts to contribute to the Design System.
 
 All efforts to contribute are highly appreciated, we recommend you open an issue prior to spending a lot of time
@@ -24,9 +24,9 @@ making a pull request that may not align with the project roadmap.
 
 Please follow the instructions below:
 
-### 1. Fork the [repository](https://github.com/strapi/design-system)
+### 1. Fork the [repository](https://github.com/FindestBV/findest-design-system)
 
-[Go to the repository](https://github.com/strapi/design-system) and fork it to your own GitHub account.
+[Go to the repository](https://github.com/FindestBV/findest-design-system) and fork it to your own GitHub account.
 
 ### 2. Clone from your repository
 

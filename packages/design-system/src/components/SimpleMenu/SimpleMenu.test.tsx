@@ -6,7 +6,7 @@ const Component = ({ onClick = () => {}, ...restProps }: SimpleMenuProps) => (
   <SimpleMenu label="Menu" {...restProps}>
     <MenuItem onClick={onClick}>January</MenuItem>
     <MenuItem onClick={onClick}>February</MenuItem>
-    <MenuItem href="https://strapi.io" isExternal>
+    <MenuItem href="https://findest.eu" isExternal>
       Strapi website
     </MenuItem>
     <MenuItem href="/" isLink>

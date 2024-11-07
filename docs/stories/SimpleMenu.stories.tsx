@@ -51,7 +51,7 @@ export const WithLinks = {
       <MenuItem href="/accounts" isLink>
         Accounts
       </MenuItem>
-      <MenuItem href="https://strapi.io/" isExternal>
+      <MenuItem href="https://findest.eu/" isExternal>
         Billing Provider
       </MenuItem>
     </SimpleMenu>

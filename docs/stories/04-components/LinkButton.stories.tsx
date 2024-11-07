@@ -16,9 +16,9 @@ const meta: Meta<typeof LinkButton> = {
   title: 'Components/LinkButton',
   component: LinkButton,
   args: {
-    children: 'strapi.io',
+    children: 'Findest.eu',
     disabled: false,
-    href: 'https://strapi.io',
+    href: 'https://findest.eu',
     isExternal: true,
     size: 'M',
     variant: 'default',

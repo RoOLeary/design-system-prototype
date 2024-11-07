@@ -14,7 +14,7 @@ type Story = StoryObj<typeof Link>;
 export const Base = {
   render: () => (
     <Flex direction="column" alignItems="stretch" gap={5}>
-      <Link isExternal href="https://strapi.io/">
+      <Link isExternal href="https://findest.eu/">
         External link
       </Link>
     </Flex>
@@ -26,7 +26,7 @@ export const Base = {
 export const Disabled = {
   render: () => (
     <Flex direction="column" alignItems="stretch" gap={5}>
-      <Link isExternal href="https://strapi.io/" disabled>
+      <Link isExternal href="https://findest.eu/" disabled>
         Disabled link
       </Link>
     </Flex>
@@ -39,12 +39,12 @@ export const Icons = {
   render: () => (
     <Flex direction="column" alignItems="stretch" gap={5}>
       <div>
-        <Link isExternal href="https://strapi.io/" startIcon={<Strapi />}>
+        <Link isExternal href="https://findest.eu/" startIcon={<Strapi />}>
           Strapi
         </Link>
       </div>
       <div>
-        <Link isExternal href="https://strapi.io/" endIcon={<Strapi />}>
+        <Link isExternal href="https://findest.eu/" endIcon={<Strapi />}>
           Strapi
         </Link>
       </div>

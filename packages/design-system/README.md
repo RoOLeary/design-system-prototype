@@ -42,6 +42,6 @@ Please follow our [CONTRIBUTING](https://github.com/strapi/design-system/blob/ma
 
 ## License
 
-Licensed under the MIT License, Copyright © 2015-present [Strapi Solutions SAS](https://strapi.io).
+Licensed under the MIT License, Copyright © 2015-present [Strapi Solutions SAS](https://findest.eu).
 
 See [LICENSE](https://github.com/strapi/design-system/blob/main/LICENSE) for more information.

@@ -1,5 +1,3 @@
-# @strapi/design-system
-
 ## 2.0.0-rc.12
 
 ### Minor Changes

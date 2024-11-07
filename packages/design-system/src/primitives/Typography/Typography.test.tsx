@@ -45,28 +45,28 @@ describe('Typography', () => {
 
     it('should render and accept attributes when the as prop is `a`', () => {
       // @ts-expect-error – href is not a valid attribute for a div, this error asserts it's not allowed
-      const { rerender } = render(<Typography href="https://strapi.io" />);
+      const { rerender } = render(<Typography href="https://findest.eu" />);
 
       rerender(
-        <Typography tag="a" href="https://strapi.io">
+        <Typography tag="a" href="https://findest.eu">
           Strapi
         </Typography>,
       );
-      expect(screen.getByText('Strapi')).toHaveAttribute('href', 'https://strapi.io');
+      expect(screen.getByText('Strapi')).toHaveAttribute('href', 'https://findest.eu');
     });
 
     it('should render and accept props from the component when passed as the `as` prop', () => {
       const MyLink = ({ to, ...props }: { to: string; children?: React.ReactNode }) => <a href={to} {...props} />;
 
       // @ts-expect-error – to is not a valid attribute for a div, this error asserts it's not allowed
-      const { rerender } = render(<Typography to="https://strapi.io" />);
+      const { rerender } = render(<Typography to="https://findest.eu" />);
 
       rerender(
-        <Typography tag={MyLink} to="https://strapi.io">
+        <Typography tag={MyLink} to="https://findest.eu">
           Strapi
         </Typography>,
       );
-      expect(screen.getByText('Strapi')).toHaveAttribute('href', 'https://strapi.io');
+      expect(screen.getByText('Strapi')).toHaveAttribute('href', 'https://findest.eu');
     });
 
     it('should allow me to pass different refs', () => {
@@ -74,7 +74,7 @@ describe('Typography', () => {
         const linkRef = React.useRef<HTMLAnchorElement>(null);
 
         return (
-          <Typography tag="a" href="https://strapi.io" ref={linkRef}>
+          <Typography tag="a" href="https://findest.eu" ref={linkRef}>
             click me!
           </Typography>
         );

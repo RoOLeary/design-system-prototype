@@ -2,7 +2,7 @@
   "name": "design-system",
   "version": "1.0.0",
   "main": "index.js",
-  "repository": "git@github.com:strapi/design-system.git",
+  "repository": "git@github.com:FindestBV/findest-design-system.git",
   "license": "MIT",
   "private": true,
   "workspaces": [
@@ -71,5 +71,12 @@
     "node": ">=16.0.0 <=20.x.x",
     "npm": ">=6.0.0"
   },
-  "packageManager": "yarn@3.5.0"
+  "packageManager": "yarn@3.5.0",
+  "dependencies": {
+    "@strapi/design-system": "workspace:*",
+    "@strapi/icons": "workspace:*",
+    "react": "18.3.1",
+    "react-dom": "18.3.1",
+    "styled-components": "6.1.11"
+  }
 }

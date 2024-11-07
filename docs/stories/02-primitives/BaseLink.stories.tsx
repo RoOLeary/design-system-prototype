@@ -8,9 +8,9 @@ const meta: Meta<typeof BaseLink> = {
     chromatic: { disableSnapshot: false },
   },
   args: {
-    children: 'Strapi.io',
+    children: 'Go to Findest',
     disabled: false,
-    href: 'https://strapi.io',
+    href: 'https://findest.eu',
     isExternal: true,
   },
   argTypes: {
@@ -59,6 +59,9 @@ export default meta;
 type Story = StoryObj<typeof BaseLink>;
 
 export const Base = {
+  args: {
+    text: "Schmlort",
+  },
   name: 'Base',
 } satisfies Story;
 
