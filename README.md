@@ -1,9 +1,4 @@
 <p align="center">
-  <a href="https://findest.eu">
-    <img src="./assets/logo.svg" width="318px" alt="Strapi logo" />
-  </a>
-</p>
-<p align="center">
 <a href="https://design-system.Findest.eu/">Documentation</a>
 <br />
 
@@ -13,20 +8,12 @@
 
 # Welcome! 👋👋👋
 
-Strapi Design System provides guidelines and tools to help anyone make Strapi's contributions more cohesive and to build
+Findest Design System provides guidelines and tools to help anyone make Strapi's contributions more cohesive and to build
 plugins more efficiently.
 
 ## Installation
 
-Install Strapi Design System and its peer dependencies:
-
-```sh
-$ yarn add react react-dom @strapi/design-system @strapi/icons styled-components
-
-# or
-
-$ npm i react react-dom @strapi/design-system @strapi/icons styled-components
-```
+Install Findest Design System and its peer dependencies:
 
 ## Getting Started
 
