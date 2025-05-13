@@ -61,6 +61,8 @@ type Story = StoryObj<typeof BaseLink>;
 export const Base = {
   args: {
     text: "Schmlort",
+    href: "https://findest.eu",
+    disabled: true
   },
   name: 'Base',
 } satisfies Story;
